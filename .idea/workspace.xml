@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17679f8c-2016-4c9c-b317-a39bf47ef117" name="Changes" comment="" />
+    <list default="true" id="17679f8c-2016-4c9c-b317-a39bf47ef117" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/allure-notifications-4.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notifications/telegram.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/karusel/web/tests/KaruselWebTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/karusel/web/tests/KaruselWebTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/karusel/web/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/karusel/web/tests/TestBase.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,18 +74,19 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "last_opened_file_path": "/Users/zyryanovvm/Documents/QA/x55ka/src/test/java/karusel/api/tests"
+    "last_opened_file_path": "/Users/zyryanovvm/Documents/QA/x55ka/notifications"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/notifications" />
       <recent name="$PROJECT_DIR$/src/test/java/karusel/api/tests" />
       <recent name="$PROJECT_DIR$/src/test/java/karusel/api/helpers" />
       <recent name="$PROJECT_DIR$/src/test/java/karusel/api/models" />
       <recent name="$PROJECT_DIR$/src/test/java/karusel/mobile/helpers" />
-      <recent name="$PROJECT_DIR$/src/test/java/karusel/mobile/drivers" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/test/resources/config" />
       <recent name="$PROJECT_DIR$/src/test/resources" />
       <recent name="$PROJECT_DIR$/src/test/resources/config/web" />
@@ -89,7 +97,7 @@
       <recent name="x55ka.web.helpers" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.KaruselMobileTests.firstPageTest">
+  <component name="RunManager" selected="Gradle.KaruselWebTests.searchCityListTest">
     <configuration name="KaruselMobileTests.firstPageTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -113,7 +121,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ReqresTests.badRegisterNewUsers" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="KaruselWebTests.searchCityListTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -124,9 +132,9 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value=":test" />
+            <option value=":web" />
             <option value="--tests" />
-            <option value="&quot;karusel.api.tests.ReqresTests.badRegisterNewUsers&quot;" />
+            <option value="&quot;karusel.web.tests.KaruselWebTests.searchCityListTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -228,11 +236,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.KaruselWebTests.searchCityListTest" />
         <item itemvalue="Gradle.KaruselMobileTests.firstPageTest" />
         <item itemvalue="Gradle.x55ka [allureServe]" />
         <item itemvalue="Gradle.ReqresTests.createUser" />
         <item itemvalue="Gradle.ReqresTests.getUser (1)" />
-        <item itemvalue="Gradle.ReqresTests.badRegisterNewUsers" />
       </list>
     </recent_temporary>
   </component>
@@ -273,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658141213397</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added tag allTests">
+      <created>1658141414948</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1658141414948</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

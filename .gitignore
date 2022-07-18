@@ -42,3 +42,4 @@ target/
 /gradlew.bat
 /.idea/
 /gradle/
+/notifications/

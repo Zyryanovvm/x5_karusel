@@ -78,8 +78,9 @@ public class KaruselWebTests extends TestBase {
         startPage.openStartPage()
                 .clickYesCity()
                 .goShop();
-        shopPage.setCity(cityForAddress)
-                .checkAdress(expectedAddress);
+        shopPage.setCity(cityForAddress);
+
+        shopPage.checkAdress(expectedAddress);
     }
 
     @ValueSource(strings = {
