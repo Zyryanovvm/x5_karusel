@@ -15,7 +15,7 @@ import static com.codeborne.selenide.Selenide.closeWebDriver;
 
 public class TestBase {
     static WebConfig config = ConfigFactory.create(WebConfig.class);
-    static String useRemote = System.getProperty("webPlatform", "local");
+    static String useRemote = System.getProperty("webPlatform", "remote");
 
     @BeforeAll
     static void firstSetup() {
