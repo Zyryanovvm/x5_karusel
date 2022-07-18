@@ -5,6 +5,7 @@ import io.qameta.allure.Feature;
 import io.qameta.allure.Owner;
 import io.qameta.allure.Story;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import karusel.web.pages.AuthPage;
 import karusel.web.pages.CatalogPage;
@@ -16,7 +17,8 @@ import org.junit.jupiter.params.provider.ValueSource;
 @Story("Тестирование WEB")
 @Owner("allure8")
 @Feature("Тестирование web, mobile, api приложений Карусель")
-public class TestsFromWebForm extends TestBase {
+@Tag("web")
+public class KaruselWebTests extends TestBase {
 
     String city = "Уфа",
             cityForAddress = "Казань",

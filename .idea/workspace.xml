@@ -4,7 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17679f8c-2016-4c9c-b317-a39bf47ef117" name="Changes" comment="" />
+    <list default="true" id="17679f8c-2016-4c9c-b317-a39bf47ef117" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/karusel/api/helpers/ReqresUri.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/karusel/api/helpers/Spec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/karusel/api/models/lombok/FirstKeyLombok.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/karusel/api/models/lombok/SecondKeyDataLombok.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/karusel/api/models/lombok/SecondKeySupportLombok.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/karusel/api/tests/ReqresTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/karusel/mobile/config/BrowserstackConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/karusel/mobile/config/EmulationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/karusel/mobile/config/XPathSelectorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/karusel/mobile/drivers/BrowserStackMobileDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/karusel/mobile/drivers/EmulationMobileDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/karusel/mobile/helpers/Attach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/karusel/mobile/helpers/BrowserStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/karusel/mobile/pages/StartPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/karusel/mobile/tests/KaruselMobileTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/karusel/api/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/karusel/api/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/karusel/mobile/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/karusel/mobile/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/karusel/web/drivers/DriverSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/karusel/web/drivers/DriverSettings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/karusel/web/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/karusel/web/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/karusel/web/tests/TestsFromWebForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/karusel/web/tests/KaruselWebTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,13 +90,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "last_opened_file_path": "/Users/zyryanovvm/Documents/QA/x55ka/src/test/java/x55ka/api"
+    "last_opened_file_path": "/Users/zyryanovvm/Documents/QA/x55ka/src/test/java/karusel/api/tests"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/java/x55ka/api" />
-      <recent name="$PROJECT_DIR$/src/test/java/x55ka/mobile" />
+      <recent name="$PROJECT_DIR$/src/test/java/karusel/api/tests" />
+      <recent name="$PROJECT_DIR$/src/test/java/karusel/api/helpers" />
+      <recent name="$PROJECT_DIR$/src/test/java/karusel/api/models" />
+      <recent name="$PROJECT_DIR$/src/test/java/karusel/mobile/helpers" />
+      <recent name="$PROJECT_DIR$/src/test/java/karusel/mobile/drivers" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/resources/config" />
@@ -81,10 +107,104 @@
       <recent name="$PROJECT_DIR$/src/test/resources/config/web" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="karusel.mobile.config" />
+      <recent name="karusel.mobile.tests" />
       <recent name="x55ka.web.helpers" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.x55ka [allureServe]">
+  <component name="RunManager" selected="Gradle.ReqresTests.createUser">
+    <configuration name="KaruselMobileTests (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;karusel.mobile.tests.KaruselMobileTests&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ReqresTests.badRegisterNewUsers" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;karusel.api.tests.ReqresTests.badRegisterNewUsers&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ReqresTests.createUser" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;karusel.api.tests.ReqresTests.createUser&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ReqresTests.getUser (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;karusel.api.tests.ReqresTests.getUser&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="TestsFromWebForm (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -104,96 +224,6 @@
         <option name="vmOptions" />
       </ExternalSystemSettings>
       <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="TestsFromWebForm (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;karusel.web.tests.TestsFromWebForm&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="TestsFromWebForm.authNegativeTests (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;karusel.web.tests.TestsFromWebForm.authNegativeTests&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="TestsFromWebForm.openStartPageTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;karusel.web.tests.TestsFromWebForm.openStartPageTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="x55ka [allureReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="allureReport" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
@@ -221,11 +251,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ReqresTests.createUser" />
         <item itemvalue="Gradle.x55ka [allureServe]" />
-        <item itemvalue="Gradle.TestsFromWebForm.openStartPageTest (1)" />
-        <item itemvalue="Gradle.TestsFromWebForm (1)" />
-        <item itemvalue="Gradle.TestsFromWebForm.authNegativeTests (1)" />
-        <item itemvalue="Gradle.x55ka [allureReport]" />
+        <item itemvalue="Gradle.ReqresTests.getUser (1)" />
+        <item itemvalue="Gradle.ReqresTests.badRegisterNewUsers" />
+        <item itemvalue="Gradle.KaruselMobileTests (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -238,6 +268,18 @@
       <option name="presentableId" value="Default" />
       <updated>1657706373207</updated>
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1657803311201</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657803311201</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>

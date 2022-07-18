@@ -1,8 +1,8 @@
 package karusel.web.drivers;
 
 import com.codeborne.selenide.Configuration;
-import org.aeonbits.owner.ConfigFactory;
 import karusel.web.config.WebConfig;
+import org.aeonbits.owner.ConfigFactory;
 
 public class DriverSettings {
 
