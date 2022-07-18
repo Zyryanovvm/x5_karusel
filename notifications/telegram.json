@@ -1,0 +1,17 @@
+{
+  "base": {
+    "project": "Autotests Karusel.",
+    "environment": "WEB, Mobile and API.",
+    "comment": "RUN",
+    "reportLink": "",
+    "language": "en",
+    "messenger": "telegram",
+    "allureFolder": "build/allure-report/",
+    "enableChart": true
+  },
+  "telegram": {
+    "token": "417789011:AAH235PsEZJxhkTE5XsIyltE1Gypxxxq9dk",
+    "chat": "-1001729872103",
+    "replyTo": ""
+  }
+}

@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17679f8c-2016-4c9c-b317-a39bf47ef117" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/allure-notifications-4.2.0.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/notifications/telegram.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/karusel/web/tests/KaruselWebTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/karusel/web/tests/KaruselWebTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/karusel/web/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/karusel/web/tests/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,16 +70,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "last_opened_file_path": "/Users/zyryanovvm/Documents/QA/x55ka/notifications"
+    "last_opened_file_path": "/Users/zyryanovvm/Documents/QA/x55ka"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/notifications" />
       <recent name="$PROJECT_DIR$/src/test/java/karusel/api/tests" />
       <recent name="$PROJECT_DIR$/src/test/java/karusel/api/helpers" />
       <recent name="$PROJECT_DIR$/src/test/java/karusel/api/models" />
-      <recent name="$PROJECT_DIR$/src/test/java/karusel/mobile/helpers" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -288,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658141414948</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added notifications">
+      <created>1658149889185</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1658149889186</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -296,6 +299,7 @@
     <MESSAGE value="added api tests" />
     <MESSAGE value="create properties" />
     <MESSAGE value="added tag allTests" />
-    <option name="LAST_COMMIT_MESSAGE" value="added tag allTests" />
+    <MESSAGE value="added notifications" />
+    <option name="LAST_COMMIT_MESSAGE" value="added notifications" />
   </component>
 </project>
