@@ -30,6 +30,7 @@ import static org.junit.jupiter.api.Assertions.assertNotEquals;
 @Owner("allure8")
 @Feature("Тестирование web, mobile, api приложений Карусель")
 @Tag("api")
+@Tag("allTests")
 public class ReqresTests extends TestBase {
 
     public String expectedText = "To keep ReqRes free, contributions towards server costs are appreciated!";

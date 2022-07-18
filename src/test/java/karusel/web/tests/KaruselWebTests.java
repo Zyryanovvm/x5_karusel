@@ -4,6 +4,7 @@ import io.qameta.allure.AllureId;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Owner;
 import io.qameta.allure.Story;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
@@ -18,6 +19,7 @@ import org.junit.jupiter.params.provider.ValueSource;
 @Owner("allure8")
 @Feature("Тестирование web, mobile, api приложений Карусель")
 @Tag("web")
+@Tag("allTests")
 public class KaruselWebTests extends TestBase {
 
     String city = "Уфа",
@@ -33,6 +35,7 @@ public class KaruselWebTests extends TestBase {
     AuthPage authPage = new AuthPage();
 
     @Test
+    @Disabled
     @AllureId("11189")
     @DisplayName("Проверка отсутствия SEVERE ошибок в консоли при открытии стартовой страницы")
     public void openStartPageTest() {

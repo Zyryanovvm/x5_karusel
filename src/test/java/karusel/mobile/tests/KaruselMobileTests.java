@@ -13,6 +13,7 @@ import org.junit.jupiter.api.Test;
 @Owner("allure8")
 @Feature("Тестирование web, mobile, api приложений Карусель")
 @Tag("mobile")
+@Tag("allTests")
 public class KaruselMobileTests extends TestBase {
     StartPage startPage = new StartPage();
 

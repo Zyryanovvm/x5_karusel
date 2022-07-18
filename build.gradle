@@ -83,4 +83,10 @@ task api(type: Test) {
         includeTags 'api'
     }
 }
+task allTests(type: Test) {
+    systemProperties(System.getProperties())
+    useJUnitPlatform {
+        includeTags 'allTests'
+    }
+}
 
