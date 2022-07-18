@@ -16,7 +16,7 @@ import static io.qameta.allure.Allure.step;
 import static karusel.mobile.helpers.Attach.sessionId;
 
 public class TestBase {
-    static String driver = System.getProperty("deviceHost", "browserstack");
+    static String driver = System.getProperty("mobileDeviceHost", "browserstack");
 
     @BeforeAll
     public static void setup() {

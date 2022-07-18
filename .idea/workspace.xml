@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17679f8c-2016-4c9c-b317-a39bf47ef117" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/karusel/api/tests/ReqresTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/karusel/api/tests/ReqresTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/karusel/mobile/tests/KaruselMobileTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/karusel/mobile/tests/KaruselMobileTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/karusel/web/tests/KaruselWebTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/karusel/web/tests/KaruselWebTests.java" afterDir="false" />
-    </list>
+    <list default="true" id="17679f8c-2016-4c9c-b317-a39bf47ef117" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -272,13 +266,21 @@
       <option name="project" value="LOCAL" />
       <updated>1658140311925</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added tag allTests">
+      <created>1658141213396</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1658141213397</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="added api tests" />
     <MESSAGE value="create properties" />
-    <option name="LAST_COMMIT_MESSAGE" value="create properties" />
+    <MESSAGE value="added tag allTests" />
+    <option name="LAST_COMMIT_MESSAGE" value="added tag allTests" />
   </component>
 </project>
