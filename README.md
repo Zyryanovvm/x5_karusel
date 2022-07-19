@@ -37,6 +37,9 @@
 ## Тест кейсы
 
 ### Тест кейсы для WEB тестирования
+<p align="center">
+<img title="" src="images/Allure TestOps/web testcase.png">
+</p>
 ![](images/Allure TestOps/web testcase.png)
 ### Тест кейсы для MOBILE тестирования
 ![](images/Allure TestOps/mobile testcase.png)
