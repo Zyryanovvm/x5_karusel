@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17679f8c-2016-4c9c-b317-a39bf47ef117" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/notifications/telegram.json" afterDir="false" />
-    </list>
+    <list default="true" id="17679f8c-2016-4c9c-b317-a39bf47ef117" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -290,8 +288,26 @@
       <option name="project" value="LOCAL" />
       <updated>1658149889186</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="create READMe">
+      <created>1658220629900</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1658220629900</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
@@ -299,6 +315,7 @@
     <MESSAGE value="create properties" />
     <MESSAGE value="added tag allTests" />
     <MESSAGE value="added notifications" />
-    <option name="LAST_COMMIT_MESSAGE" value="added notifications" />
+    <MESSAGE value="create READMe" />
+    <option name="LAST_COMMIT_MESSAGE" value="create READMe" />
   </component>
 </project>
