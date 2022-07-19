@@ -37,7 +37,7 @@
 ## Тест кейсы
 
 ### Тест кейсы для WEB тестирования
-![](images/Allure TestOps/web testcase.png)
+![](https://github.com/Zyryanovvm/x5_karusel/blob/5f537e249eaf81c3818c15ffdea52940375a84ac/images/Allure%20TestOps/web%20testcase.png)
 ### Тест кейсы для MOBILE тестирования
 ![](images/Allure TestOps/mobile testcase.png)
 ### Тест кейсы для API тестирования
